@@ -1,6 +1,8 @@
 <?php
 
 if( isset( $_SESSION [ 'id' ] ) ) {
+    $username = 'abcd'
+    $password = 'gotchabish'
 	// Get input
 	$id = $_SESSION[ 'id' ];
 
